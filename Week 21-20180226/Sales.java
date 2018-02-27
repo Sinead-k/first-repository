@@ -9,7 +9,7 @@ public class Sales
  		double total = 0;
  		int quantity;
 
-		System.out.println("Enter product number (1-5 or 0 to stop): ");
+		System.out.print("Enter product number (1-5 or 0 to stop): ");
 		productNumber = input.nextInt();
 
  		while (productNumber != 0)
@@ -17,7 +17,7 @@ public class Sales
 
 			if(productNumber >= 1 && productNumber <= 5)
 			{
-				System.out.println("Enter quantity sold: ");
+				System.out.print("Enter quantity sold: ");
  				quantity = input.nextInt();
 
  				switch(productNumber)
@@ -40,9 +40,10 @@ public class Sales
 				}
 			}
 			else if(productNumber != 0)
-				System.out.println("Product number must be between 1 and 5 included");
+				System.out.print("Product number must be between 1 and 5 included");
 
-				System.out.println("Enter product number (1-5 or 0 to stop): ");
+				System.out.print("Enter product number (1-5 or 0 to stop): ");
+				productNumber = input.nextInt();
 
 		}
 		System.out.println("Total of products sold: ");
