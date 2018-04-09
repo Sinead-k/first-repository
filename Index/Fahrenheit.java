@@ -15,4 +15,5 @@ public class Fahrenheit
 		System.out.println(temp+" Celsius is "+fahrenheit+" Fahrenheit\n");
 		Convert.main(null);
 	}
+	Index.main(null);
 }
