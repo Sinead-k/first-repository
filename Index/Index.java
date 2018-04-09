@@ -1,4 +1,4 @@
-1import java.util.Scanner;
+import java.util.Scanner;
 
 public class Index{
   public static void main(String[] args){
@@ -27,7 +27,8 @@ public class Index{
     int choice = input.nextInt();
     System.out.println();
 
-    switch(choice){
+    switch(choice)
+    {
       case 1:
         System.out.println("Break lab");
         Break_Ex2.main(null);
@@ -80,7 +81,7 @@ public class Index{
       case 11:
 		System.out.println("Search Multi-Dimentional Array");
 		System.out.println();
-		.main(null);
+		SearchStudent.main(null);
         break;
       case 12:
 	  	System.out.println("Project Exercise 1");
@@ -90,7 +91,7 @@ public class Index{
       case 13:
 	  	System.out.println("Project Exercise 2");
 	  	System.out.println();
-	  	.main(null);
+	  	Search.main(null);
         break;
       case 14:
         System.out.println("Exiting....");
